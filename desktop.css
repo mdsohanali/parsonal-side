@@ -1,0 +1,110 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    transition:all .4s;
+}
+
+
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+
+
+/* navbar start here */
+
+
+
+.nav-menu{
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-end;
+    margin-bottom:-30px;
+    }
+    .nav-logo{
+        padding: 0px;
+        margin: -8px;
+    }
+  /* navbar end here */
+
+
+/* profile starts here */
+.profile_des h1{
+    font-size:3rem;
+}
+
+
+/* profile ends here */
+
+/* about me starts here */
+.about_me{
+    text-align:left;
+}
+
+[class*="col-"]{
+    float:left;
+}
+.about_left2{
+    display:flex;
+    justify-content:center;
+}
+
+/* .about_me img{
+    width:250px;
+    border-radius:100%;
+    margin-top:20px;
+    transition:all .4s;
+} */
+.about_me img:hover{
+    transform:scale(1.1);
+    box-shadow:10px 10px 10px 10px black; 
+}
+/* about me ends here */
+
+
+/* achievement-contact starts here */
+.achievement-contect{
+    padding:0;
+}
+.achievement-contect{
+    padding:20px 7%;
+}
+.achievement-contect-me button{
+    width:120px;
+    margin-left:10px;
+}
+
+
+.more-way-contect{
+    position:relative;
+}
+.media-buttons{
+    position:absolute;
+    top:300%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+/* achievement-contact ends here */
+
+
+
+/* footer strats form here */
+.footer-menu a{
+    display:inline-block;
+  padding:0px;
+  margin:0px 10px;
+}
+
+/* footer ends form here */
